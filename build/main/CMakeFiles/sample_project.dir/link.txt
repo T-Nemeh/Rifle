@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sample_project.dir/main.cpp.o -o /home/Tala/Rifle/bin/sample_project 

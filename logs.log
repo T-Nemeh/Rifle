@@ -1,0 +1,431 @@
+time;model_id;model_name;port_name;data
+[33m0;2;Chbr;;{1} {dudBullet: 2, bulletIn: 0}[0m
+[33m0;3;BA;;{1, State: ACTIVE, boltFree: 0, readyBullet: 0, boltState: 0}[0m
+[33m0;4;TA;;{inf, 0}[0m
+[33m0;6;Magazine;;{1}[0m
+[33m0;7;Bullet;;{1, State: PASSIVE, bulletRdy: 0, isDud: 0}[0m
+[33m0;8;rifleGen;;{Messages Sent: 0, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m1;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[32m1;3;BA;out_bulletLoaded;1[0m
+[32m1;3;BA;out_boltPosn;0[0m
+[33m1;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 0, boltState: 0}[0m
+[33m1;4;TA;;{0, 1}[0m
+[32m1;6;Magazine;out_bulletReady;0[0m
+[33m1;6;Magazine;;{0}[0m
+[32m1;7;Bullet;out_isDud;0[0m
+[32m1;7;Bullet;out_bulletReady;0[0m
+[33m1;7;Bullet;;{0, State: ACTIVE, bulletRdy: 0, isDud: 0}[0m
+[32m1;8;rifleGen;out_triggerPressed;0[0m
+[32m1;8;rifleGen;out_firingSelector;0[0m
+[32m1;8;rifleGen;out_boltBack;0[0m
+[32m1;8;rifleGen;out_magSeating;1[0m
+[33m1;8;rifleGen;;{Messages Sent: 1, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m1;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m1;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 0, boltState: 0}[0m
+[33m1;4;TA;;{inf, 0}[0m
+[32m1;6;Magazine;out_bulletReady;1[0m
+[33m1;6;Magazine;;{inf}[0m
+[32m1;7;Bullet;out_isDud;0[0m
+[32m1;7;Bullet;out_bulletReady;0[0m
+[33m1;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m1;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m1;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m1;7;Bullet;out_isDud;0[0m
+[32m1;7;Bullet;out_bulletReady;1[0m
+[33m1;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m2;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m2;4;TA;;{0, 1}[0m
+[33m2;6;Magazine;;{0}[0m
+[32m2;8;rifleGen;out_triggerPressed;1[0m
+[32m2;8;rifleGen;out_firingSelector;0[0m
+[32m2;8;rifleGen;out_boltBack;0[0m
+[32m2;8;rifleGen;out_magSeating;1[0m
+[32m2;8;rifleGen;out_bulletLoaded;1[0m
+[33m2;8;rifleGen;;{Messages Sent: 2, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m2;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m2;4;TA;out_releaseBolt;0[0m
+[33m2;4;TA;;{inf, 0}[0m
+[32m2;6;Magazine;out_bulletReady;1[0m
+[33m2;6;Magazine;;{inf}[0m
+[33m2;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m2;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m2;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m2;7;Bullet;out_isDud;0[0m
+[32m2;7;Bullet;out_bulletReady;1[0m
+[33m2;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m3;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m3;4;TA;;{0, 1}[0m
+[33m3;6;Magazine;;{0}[0m
+[32m3;8;rifleGen;out_triggerPressed;0[0m
+[32m3;8;rifleGen;out_firingSelector;0[0m
+[32m3;8;rifleGen;out_boltBack;0[0m
+[32m3;8;rifleGen;out_magSeating;1[0m
+[33m3;8;rifleGen;;{Messages Sent: 3, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m3;4;TA;;{inf, 0}[0m
+[32m3;6;Magazine;out_bulletReady;1[0m
+[33m3;6;Magazine;;{inf}[0m
+[33m3;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m3;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m3;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m3;7;Bullet;out_isDud;0[0m
+[32m3;7;Bullet;out_bulletReady;1[0m
+[33m3;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m4;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m4;4;TA;;{0, 1}[0m
+[33m4;6;Magazine;;{0}[0m
+[32m4;8;rifleGen;out_triggerPressed;1[0m
+[32m4;8;rifleGen;out_firingSelector;0[0m
+[32m4;8;rifleGen;out_boltBack;0[0m
+[32m4;8;rifleGen;out_magSeating;1[0m
+[32m4;8;rifleGen;out_bulletLoaded;1[0m
+[33m4;8;rifleGen;;{Messages Sent: 4, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m4;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m4;4;TA;out_releaseBolt;0[0m
+[33m4;4;TA;;{inf, 0}[0m
+[32m4;6;Magazine;out_bulletReady;1[0m
+[33m4;6;Magazine;;{inf}[0m
+[33m4;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 1}[0m
+[33m4;2;Chbr;;{5} {dudBullet: 1, bulletIn: 1}[0m
+[33m4;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m4;7;Bullet;out_isDud;1[0m
+[32m4;7;Bullet;out_bulletReady;1[0m
+[33m4;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 1}[0m
+[33m5;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m5;4;TA;;{0, 1}[0m
+[33m5;6;Magazine;;{0}[0m
+[32m5;8;rifleGen;out_triggerPressed;0[0m
+[32m5;8;rifleGen;out_firingSelector;0[0m
+[32m5;8;rifleGen;out_boltBack;0[0m
+[32m5;8;rifleGen;out_magSeating;1[0m
+[33m5;8;rifleGen;;{Messages Sent: 5, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m5;4;TA;;{inf, 0}[0m
+[32m5;6;Magazine;out_bulletReady;1[0m
+[33m5;6;Magazine;;{inf}[0m
+[33m5;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m5;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m5;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m5;7;Bullet;out_isDud;0[0m
+[32m5;7;Bullet;out_bulletReady;1[0m
+[33m5;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m6;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m6;4;TA;;{0, 1}[0m
+[33m6;6;Magazine;;{0}[0m
+[32m6;8;rifleGen;out_triggerPressed;1[0m
+[32m6;8;rifleGen;out_firingSelector;1[0m
+[32m6;8;rifleGen;out_boltBack;0[0m
+[32m6;8;rifleGen;out_magSeating;1[0m
+[32m6;8;rifleGen;out_bulletLoaded;1[0m
+[33m6;8;rifleGen;;{Messages Sent: 6, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m6;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m6;4;TA;out_releaseBolt;1[0m
+[33m6;4;TA;;{inf, 0}[0m
+[32m6;6;Magazine;out_bulletReady;1[0m
+[33m6;6;Magazine;;{inf}[0m
+[33m6;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m6;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m6;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m6;7;Bullet;out_isDud;0[0m
+[32m6;7;Bullet;out_bulletReady;1[0m
+[33m6;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m7;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m7;4;TA;;{0, 1}[0m
+[33m7;6;Magazine;;{0}[0m
+[32m7;8;rifleGen;out_triggerPressed;0[0m
+[32m7;8;rifleGen;out_firingSelector;1[0m
+[32m7;8;rifleGen;out_boltBack;0[0m
+[32m7;8;rifleGen;out_magSeating;1[0m
+[33m7;8;rifleGen;;{Messages Sent: 7, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m7;4;TA;;{inf, 0}[0m
+[32m7;6;Magazine;out_bulletReady;1[0m
+[33m7;6;Magazine;;{inf}[0m
+[33m7;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m7;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m7;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m7;7;Bullet;out_isDud;0[0m
+[32m7;7;Bullet;out_bulletReady;1[0m
+[33m7;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m8;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m8;4;TA;;{0, 1}[0m
+[33m8;6;Magazine;;{0}[0m
+[32m8;8;rifleGen;out_triggerPressed;1[0m
+[32m8;8;rifleGen;out_firingSelector;1[0m
+[32m8;8;rifleGen;out_boltBack;0[0m
+[32m8;8;rifleGen;out_magSeating;1[0m
+[32m8;8;rifleGen;out_bulletLoaded;1[0m
+[33m8;8;rifleGen;;{Messages Sent: 8, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m8;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m8;4;TA;out_releaseBolt;1[0m
+[33m8;4;TA;;{inf, 0}[0m
+[32m8;6;Magazine;out_bulletReady;1[0m
+[33m8;6;Magazine;;{inf}[0m
+[33m8;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m8;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m8;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m8;7;Bullet;out_isDud;0[0m
+[32m8;7;Bullet;out_bulletReady;1[0m
+[33m8;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m9;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m9;4;TA;;{0, 1}[0m
+[33m9;6;Magazine;;{0}[0m
+[32m9;8;rifleGen;out_triggerPressed;0[0m
+[32m9;8;rifleGen;out_firingSelector;1[0m
+[32m9;8;rifleGen;out_boltBack;0[0m
+[32m9;8;rifleGen;out_magSeating;1[0m
+[33m9;8;rifleGen;;{Messages Sent: 9, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m9;4;TA;;{inf, 0}[0m
+[32m9;6;Magazine;out_bulletReady;1[0m
+[33m9;6;Magazine;;{inf}[0m
+[33m9;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m9;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m9;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m9;7;Bullet;out_isDud;0[0m
+[32m9;7;Bullet;out_bulletReady;1[0m
+[33m9;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m10;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m10;4;TA;;{0, 1}[0m
+[33m10;6;Magazine;;{0}[0m
+[32m10;8;rifleGen;out_triggerPressed;1[0m
+[32m10;8;rifleGen;out_firingSelector;1[0m
+[32m10;8;rifleGen;out_boltBack;0[0m
+[32m10;8;rifleGen;out_magSeating;1[0m
+[32m10;8;rifleGen;out_bulletLoaded;1[0m
+[33m10;8;rifleGen;;{Messages Sent: 10, Sigma: 1, Test Phase: 1, Firing Mode: 2, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m10;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m10;4;TA;out_releaseBolt;1[0m
+[33m10;4;TA;;{inf, 0}[0m
+[32m10;6;Magazine;out_bulletReady;1[0m
+[33m10;6;Magazine;;{inf}[0m
+[33m10;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m10;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m10;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m10;7;Bullet;out_isDud;0[0m
+[32m10;7;Bullet;out_bulletReady;1[0m
+[33m10;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m11;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m11;4;TA;;{0, 1}[0m
+[33m11;6;Magazine;;{0}[0m
+[32m11;8;rifleGen;out_triggerPressed;0[0m
+[32m11;8;rifleGen;out_firingSelector;2[0m
+[32m11;8;rifleGen;out_boltBack;0[0m
+[32m11;8;rifleGen;out_magSeating;1[0m
+[33m11;8;rifleGen;;{Messages Sent: 11, Sigma: 1, Test Phase: 1, Firing Mode: 2, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m11;4;TA;;{inf, 0}[0m
+[32m11;6;Magazine;out_bulletReady;1[0m
+[33m11;6;Magazine;;{inf}[0m
+[33m11;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m11;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m11;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m11;7;Bullet;out_isDud;0[0m
+[32m11;7;Bullet;out_bulletReady;1[0m
+[33m11;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m12;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m12;4;TA;;{0, 1}[0m
+[33m12;6;Magazine;;{0}[0m
+[32m12;8;rifleGen;out_triggerPressed;1[0m
+[32m12;8;rifleGen;out_firingSelector;2[0m
+[32m12;8;rifleGen;out_boltBack;0[0m
+[32m12;8;rifleGen;out_magSeating;1[0m
+[32m12;8;rifleGen;out_bulletLoaded;1[0m
+[33m12;8;rifleGen;;{Messages Sent: 12, Sigma: 1, Test Phase: 1, Firing Mode: 2, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m12;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m12;4;TA;out_releaseBolt;1[0m
+[33m12;4;TA;;{inf, 0}[0m
+[32m12;6;Magazine;out_bulletReady;1[0m
+[33m12;6;Magazine;;{inf}[0m
+[33m12;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m12;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m12;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m12;7;Bullet;out_isDud;0[0m
+[32m12;7;Bullet;out_bulletReady;1[0m
+[33m12;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m13;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m13;4;TA;;{0, 1}[0m
+[33m13;6;Magazine;;{0}[0m
+[32m13;8;rifleGen;out_triggerPressed;0[0m
+[32m13;8;rifleGen;out_firingSelector;2[0m
+[32m13;8;rifleGen;out_boltBack;0[0m
+[32m13;8;rifleGen;out_magSeating;1[0m
+[33m13;8;rifleGen;;{Messages Sent: 13, Sigma: 1, Test Phase: 1, Firing Mode: 2, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m13;4;TA;;{inf, 0}[0m
+[32m13;6;Magazine;out_bulletReady;1[0m
+[33m13;6;Magazine;;{inf}[0m
+[33m13;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m13;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m13;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m13;7;Bullet;out_isDud;0[0m
+[32m13;7;Bullet;out_bulletReady;1[0m
+[33m13;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m14;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m14;4;TA;;{0, 1}[0m
+[33m14;6;Magazine;;{0}[0m
+[32m14;8;rifleGen;out_triggerPressed;1[0m
+[32m14;8;rifleGen;out_firingSelector;2[0m
+[32m14;8;rifleGen;out_boltBack;0[0m
+[32m14;8;rifleGen;out_magSeating;1[0m
+[32m14;8;rifleGen;out_bulletLoaded;1[0m
+[33m14;8;rifleGen;;{Messages Sent: 14, Sigma: 1, Test Phase: 1, Firing Mode: 2, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m14;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m14;4;TA;out_releaseBolt;1[0m
+[33m14;4;TA;;{inf, 0}[0m
+[32m14;6;Magazine;out_bulletReady;1[0m
+[33m14;6;Magazine;;{inf}[0m
+[33m14;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m14;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m14;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m14;7;Bullet;out_isDud;0[0m
+[32m14;7;Bullet;out_bulletReady;1[0m
+[33m14;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m15;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m15;4;TA;;{0, 1}[0m
+[33m15;6;Magazine;;{0}[0m
+[32m15;8;rifleGen;out_triggerPressed;0[0m
+[32m15;8;rifleGen;out_firingSelector;2[0m
+[32m15;8;rifleGen;out_boltBack;0[0m
+[32m15;8;rifleGen;out_magSeating;1[0m
+[33m15;8;rifleGen;;{Messages Sent: 15, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m15;4;TA;;{inf, 0}[0m
+[32m15;6;Magazine;out_bulletReady;1[0m
+[33m15;6;Magazine;;{inf}[0m
+[33m15;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m15;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m15;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m15;7;Bullet;out_isDud;0[0m
+[32m15;7;Bullet;out_bulletReady;1[0m
+[33m15;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m16;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m16;4;TA;;{0, 1}[0m
+[33m16;6;Magazine;;{0}[0m
+[32m16;8;rifleGen;out_triggerPressed;1[0m
+[32m16;8;rifleGen;out_firingSelector;0[0m
+[32m16;8;rifleGen;out_boltBack;0[0m
+[32m16;8;rifleGen;out_magSeating;1[0m
+[32m16;8;rifleGen;out_bulletLoaded;1[0m
+[33m16;8;rifleGen;;{Messages Sent: 16, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m16;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m16;4;TA;out_releaseBolt;0[0m
+[33m16;4;TA;;{inf, 0}[0m
+[32m16;6;Magazine;out_bulletReady;1[0m
+[33m16;6;Magazine;;{inf}[0m
+[33m16;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m16;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m16;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m16;7;Bullet;out_isDud;0[0m
+[32m16;7;Bullet;out_bulletReady;1[0m
+[33m16;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m17;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m17;4;TA;;{0, 1}[0m
+[33m17;6;Magazine;;{0}[0m
+[32m17;8;rifleGen;out_triggerPressed;0[0m
+[32m17;8;rifleGen;out_firingSelector;0[0m
+[32m17;8;rifleGen;out_boltBack;0[0m
+[32m17;8;rifleGen;out_magSeating;1[0m
+[33m17;8;rifleGen;;{Messages Sent: 17, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m17;4;TA;;{inf, 0}[0m
+[32m17;6;Magazine;out_bulletReady;1[0m
+[33m17;6;Magazine;;{inf}[0m
+[33m17;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m17;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m17;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m17;7;Bullet;out_isDud;0[0m
+[32m17;7;Bullet;out_bulletReady;1[0m
+[33m17;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m18;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m18;4;TA;;{0, 1}[0m
+[33m18;6;Magazine;;{0}[0m
+[32m18;8;rifleGen;out_triggerPressed;1[0m
+[32m18;8;rifleGen;out_firingSelector;0[0m
+[32m18;8;rifleGen;out_boltBack;0[0m
+[32m18;8;rifleGen;out_magSeating;1[0m
+[32m18;8;rifleGen;out_bulletLoaded;1[0m
+[33m18;8;rifleGen;;{Messages Sent: 18, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m18;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m18;4;TA;out_releaseBolt;0[0m
+[33m18;4;TA;;{inf, 0}[0m
+[32m18;6;Magazine;out_bulletReady;1[0m
+[33m18;6;Magazine;;{inf}[0m
+[33m18;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m18;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m18;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m18;7;Bullet;out_isDud;0[0m
+[32m18;7;Bullet;out_bulletReady;1[0m
+[33m18;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m19;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m19;4;TA;;{0, 1}[0m
+[33m19;6;Magazine;;{0}[0m
+[32m19;8;rifleGen;out_triggerPressed;0[0m
+[32m19;8;rifleGen;out_firingSelector;0[0m
+[32m19;8;rifleGen;out_boltBack;0[0m
+[32m19;8;rifleGen;out_magSeating;1[0m
+[33m19;8;rifleGen;;{Messages Sent: 19, Sigma: 1, Test Phase: 1, Firing Mode: 0, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m19;4;TA;;{inf, 0}[0m
+[32m19;6;Magazine;out_bulletReady;1[0m
+[33m19;6;Magazine;;{inf}[0m
+[33m19;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m19;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m19;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m19;7;Bullet;out_isDud;0[0m
+[32m19;7;Bullet;out_bulletReady;1[0m
+[33m19;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m20;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m20;4;TA;;{0, 1}[0m
+[33m20;6;Magazine;;{0}[0m
+[32m20;8;rifleGen;out_triggerPressed;1[0m
+[32m20;8;rifleGen;out_firingSelector;0[0m
+[32m20;8;rifleGen;out_boltBack;0[0m
+[32m20;8;rifleGen;out_magSeating;1[0m
+[32m20;8;rifleGen;out_bulletLoaded;1[0m
+[33m20;8;rifleGen;;{Messages Sent: 20, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m20;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m20;4;TA;out_releaseBolt;0[0m
+[33m20;4;TA;;{inf, 0}[0m
+[32m20;6;Magazine;out_bulletReady;1[0m
+[33m20;6;Magazine;;{inf}[0m
+[33m20;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m20;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m20;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m20;7;Bullet;out_isDud;0[0m
+[32m20;7;Bullet;out_bulletReady;1[0m
+[33m20;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m21;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m21;4;TA;;{0, 1}[0m
+[33m21;6;Magazine;;{0}[0m
+[32m21;8;rifleGen;out_triggerPressed;0[0m
+[32m21;8;rifleGen;out_firingSelector;1[0m
+[32m21;8;rifleGen;out_boltBack;0[0m
+[32m21;8;rifleGen;out_magSeating;1[0m
+[33m21;8;rifleGen;;{Messages Sent: 21, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: Yes, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m21;4;TA;;{inf, 0}[0m
+[32m21;6;Magazine;out_bulletReady;1[0m
+[33m21;6;Magazine;;{inf}[0m
+[33m21;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m21;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m21;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m21;7;Bullet;out_isDud;0[0m
+[32m21;7;Bullet;out_bulletReady;1[0m
+[33m21;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m22;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m22;4;TA;;{0, 1}[0m
+[33m22;6;Magazine;;{0}[0m
+[32m22;8;rifleGen;out_triggerPressed;1[0m
+[32m22;8;rifleGen;out_firingSelector;1[0m
+[32m22;8;rifleGen;out_boltBack;0[0m
+[32m22;8;rifleGen;out_magSeating;1[0m
+[32m22;8;rifleGen;out_bulletLoaded;1[0m
+[33m22;8;rifleGen;;{Messages Sent: 22, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m
+[33m22;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m22;4;TA;out_releaseBolt;1[0m
+[33m22;4;TA;;{inf, 0}[0m
+[32m22;6;Magazine;out_bulletReady;1[0m
+[33m22;6;Magazine;;{inf}[0m
+[33m22;7;Bullet;;{0, State: ACTIVE, bulletRdy: 1, isDud: 0}[0m
+[33m22;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m22;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[32m22;7;Bullet;out_isDud;0[0m
+[32m22;7;Bullet;out_bulletReady;1[0m
+[33m22;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m22;2;Chbr;;{5} {dudBullet: 0, bulletIn: 1}[0m
+[33m22;3;BA;;{inf, State: PASSIVE, boltFree: 0, readyBullet: 1, boltState: 0}[0m
+[33m22;4;TA;;{inf, 0}[0m
+[33m22;6;Magazine;;{inf}[0m
+[33m22;7;Bullet;;{inf, State: PASSIVE, bulletRdy: 1, isDud: 0}[0m
+[33m22;8;rifleGen;;{Messages Sent: 22, Sigma: 1, Test Phase: 1, Firing Mode: 1, Trigger Pressed: No, Bolt Back: No, Mag Seated: Yes, Bullets Remaining: 10}[0m

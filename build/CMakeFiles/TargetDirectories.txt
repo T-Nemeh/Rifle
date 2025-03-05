@@ -1,0 +1,5 @@
+/home/Tala/Rifle/build/CMakeFiles/edit_cache.dir
+/home/Tala/Rifle/build/CMakeFiles/rebuild_cache.dir
+/home/Tala/Rifle/build/main/CMakeFiles/sample_project.dir
+/home/Tala/Rifle/build/main/CMakeFiles/edit_cache.dir
+/home/Tala/Rifle/build/main/CMakeFiles/rebuild_cache.dir
